@@ -1,1 +1,2 @@
 # homework-2
+I believe my portfolio website presents me in my professional aspect in terms of content, as well as a little bit of my personal aspect. I am quite satisfied with the site but there are things I would also like to improve and be more accurate. The difficulty was that I felt that most of the things I did not know and did not understand in advance, and I felt as if I had to learn everything independently and I used the Internet a lot. That's why I also learned a lot of new properties and functions. It took many hours for this thing to be born, so hope you enjoy!
