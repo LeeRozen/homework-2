@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>Lee Rozen | Portfolio</title>
+</head>
+
+<body>
+   <!-- TOP NAV BAR -->
+   
+<header>
+   <nav id="top_nav">
+      <div class="logo">LEE ⁛ ROZEN</div>
+      <div>
+         <ul class="nav_links">
+            <li><a href="index.html" class="active">⁘ HOME</a></li>
+            <li><a href="about.html">⁘ ABOUT</a></li>
+            <li><a href="resume.html">⁘ RESUME</a></li>
+            <li><a href="projects.html">⁘ PROJECTS</a></li>
+         </ul>
+      </div>
+   </nav>
+</header>
+   <!-- SIDE NAV BAR -->
+   <nav id="hamburger_nav">
+      <div class="logo">LEE ⁛ ROZEN</div>
+      <div class="hamburger_menu">
+         <div class="hamburger_icon" onclick="toggleMenu()">
+            <!-- span elemnts for the lines of the menu -->
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <div class="menu_links" > <!-- the links that will be opened with the function above-->
+         <ul> <li><a href="index.html" onclick="toggleMenu()" class="active">⁘ HOME</a></li>
+            <li><a href="about.html" onclick="toggleMenu()">⁘ ABOUT</a></li>
+            <li><a href="resume.html" onclick="toggleMenu()">⁘ RESUME</a></li>
+            <li><a href="projects.html" onclick="toggleMenu()">⁘ PROJECTS</a></li>
+         </ul>  </div> 
+      </div>
+   </nav>
+
+   <!-- HOMEPAGE CONTENT-->
+   <section id="hero_section"> 
+      <div class="pic_container">
+         <img src="./Images and assets/327A1071.jpg" alt="self picture">
+      </div>
+      <div class="text_container">
+         <p class="p1_text_container">Hi, Its Nice To Meet!<br>WELCOME TO MY PORTFOLIO WEBSITE</p>
+         <h1 class="title">Lee Rozen</h1>
+         <p class="p2_text_container">Indusrial engineer & managment student</p>
+      </div>
+   </section>
+   <!-- FOOTER CONTENT & LINKS-->
+   <footer>
+      <div>
+         <p>⁛ Before you leave - feel free to read my CV, to connect with me via LinkedIn, and to see some of my programming projects: ⁛</p>
+      </div>
+      <div id="more_info">
+         <img src="./Images and assets/download_FILL0_wght400_GRAD0_opsz24.png" alt="CV file" onclick="window.open('./Images and assets/CV Lee Rozen.pdf')">
+         <img src="./Images and assets/linkedin.png" alt="LinkedIn profile" onclick="location.href='https://www.linkedin.com/in/lee-rozen-profile/'">
+         <img src="./Images and assets/github-logo-24.png" alt="GitHub profile" onclick="location.href='https://github.com/LeeRozen/'">
+      </div>
+   </footer>
+         
+  <script src="script.js"></script>
+</body>
+</html>
+
+

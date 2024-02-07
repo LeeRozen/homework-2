@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>Resume</title>
+</head>
+<body>
+
+        <!-- TOP NAV BAR -->
+        <header>
+            <nav id="top_nav">
+            <div class="logo">LEE ⁛ ROZEN</div>
+            <div>
+                <ul class="nav_links">
+                    <li><a href="index.html">⁘ HOME</a></li>
+                    <li><a href="about.html">⁘ ABOUT</a></li>
+                    <li><a href="resume.html" class="active">⁘ RESUME</a></li>
+                    <li><a href="projects.html">⁘ PROJECTS</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+            <!-- SIDE NAV BAR -->
+            <nav id="hamburger_nav">
+            <div class="logo">LEE ⁛ ROZEN</div>
+            <div class="hamburger_menu">
+                <div class="hamburger_icon" onclick="toggleMenu()">
+                    <!-- span elemnts for the lines of the menu -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu_links" > <!-- the links that will be opened with the function above-->
+                <ul> <li><a href="index.html" onclick="toggleMenu()">⁘ HOME</a></li>
+                    <li><a href="about.html" onclick="toggleMenu()">⁘ ABOUT</a></li>
+                    <li><a href="resume.html" onclick="toggleMenu()" class="active">⁘ RESUME</a></li>
+                    <li><a href="projects.html" onclick="toggleMenu()">⁘ PROJECTS</a></li>
+                </ul>  </div> 
+            </div>
+            </nav>
+        
+            <!-- RESUME CONTENT-->
+            <section id="resume"> 
+            <div>
+                <h1>MY RESUME</h1>
+                <p>
+                <h2>2022-2024</h2>
+                <ul>
+                    <li>Sustitute teacher in Ben-Guriun (Ruppin) school</li>
+                    <li>Programming lessons instructor for young girls, scholasheep "AliceCode"</li>
+                </ul>
+
+                <h2>2020-2021</h2>
+                <h3>Banker</h3>
+                <ul>
+                    <li>Customer services, including achieving the time goals required.</li>
+                    <li>Training team- conducted hands-on training for new employees, actively involved in their practical preparation, and administered grades and professional evaluations throughout the qualification process.</li>
+                    <li>Senior team- managing of multiple tasks simultaneously while engaging with various organization entities; provided professional consultation for bankers on real-time service; authority and role of manager (from both customer and organizational points).</li>
+                </ul>
+
+                <h2>2018-2020</h2>
+                <p>A waitress in different restuarents</p>
+
+                <h2>2015-2017</h2>
+                <h3>Military Service</h3>
+                <ul>
+                    <li>Investigation of soldiers, including officers and reserves (in different ranks and from a variety of units), who intended to be in a classified position.</li>
+                    <li>Promotion to an inspector role that included authority to provide initial approval for classification based on professional diagnosis, technical assessments and investigation findings.</li>
+                    <li>Managing the list of candidates for investigations and coordinating the investigation schedule.</li>
+                </ul>
+                </p>
+            </div>
+            </section>
+    
+            <!-- FOOTER CONTENT & LINKS-->
+            <footer>
+            <div>
+                <p>⁛ Before you leave - feel free to read my CV, to connect with me via LinkedIn, and to see some of my programming projects: ⁛</p>
+            </div>
+            <div id="more_info">
+                <img src="./Images and assets/download_FILL0_wght400_GRAD0_opsz24.png" alt="CV file" onclick="window.open('./Images and assets/CV Lee Rozen.pdf')">
+                <img src="./Images and assets/linkedin.png" alt="LinkedIn profile" onclick="location.href='https://www.linkedin.com/in/lee-rozen-profile/'">
+                <img src="./Images and assets/github-logo-24.png" alt="GitHub profile" onclick="location.href='https://github.com/LeeRozen/'">
+            </div>
+            </footer>
+                
+        <script src="script.js"></script>
+    
+</body>
+</html>

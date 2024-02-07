@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>Projects</title>
+</head>
+<body>
+     <!-- TOP NAV BAR -->
+     <header>
+        <nav id="top_nav">
+        <div class="logo">LEE ⁛ ROZEN</div>
+        <div>
+            <ul class="nav_links">
+                <li><a href="index.html">⁘ HOME</a></li>
+                <li><a href="about.html">⁘ ABOUT</a></li>
+                <li><a href="resume.html">⁘ RESUME</a></li>
+                <li><a href="projects.html" class="active">⁘ PROJECTS</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+        <!-- SIDE NAV BAR -->
+        <nav id="hamburger_nav">
+        <div class="logo">LEE ⁛ ROZEN</div>
+        <div class="hamburger_menu">
+            <div class="hamburger_icon" onclick="toggleMenu()">
+                <!-- span elemnts for the lines of the menu -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu_links" > <!-- the links that will be opened with the function above-->
+            <ul> <li><a href="index.html" onclick="toggleMenu()">⁘ HOME</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">⁘ ABOUT</a></li>
+                <li><a href="resume.html" onclick="toggleMenu()">⁘ RESUME</a></li>
+                <li><a href="projects.html" onclick="toggleMenu()" class="active">⁘ PROJECTS</a></li>
+            </ul>  </div> 
+        </div>
+        </nav>
+    
+        <!-- PROJECTS CONTENT-->
+        <section> 
+        <div>
+            <h1>GUI | C# PROJECT</h1>
+            <h3>Me and my study-partner chose to do the project on selling tickets for a student party</h3>
+            <p>Click on the photo below for open the full project file (explanation, codes, full images)</p>
+            <br>
+            <img id="GUIlink" src="./Images and assets/projectPhoto.png" alt="GUIproject" onclick="window.open('./Images and assets/HW4_b_GUI_LeeRozen_OfriRozolio.pdf')">
+        </div>
+        </section>
+
+        <!-- FOOTER CONTENT & LINKS-->
+        <footer>
+        <div>
+            <p>⁛ Before you leave - feel free to read my CV, to connect with me via LinkedIn, and to see some of my programming projects: ⁛</p>
+        </div>
+        <div id="more_info">
+            <img src="./Images and assets/download_FILL0_wght400_GRAD0_opsz24.png" alt="CV file" onclick="window.open('./Images and assets/CV Lee Rozen.pdf')">
+            <img src="./Images and assets/linkedin.png" alt="LinkedIn profile" onclick="location.href='https://www.linkedin.com/in/lee-rozen-profile/'">
+            <img src="./Images and assets/github-logo-24.png" alt="GitHub profile" onclick="location.href='https://github.com/LeeRozen/'">
+        </div>
+        </footer>
+            
+    <script src="script.js"></script>
+    
+</body>
+</html>
